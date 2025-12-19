@@ -84,7 +84,7 @@
                     <ul class="trending-post">
                         @foreach($categories as $category)
                             <li>
-                                <a href="{{ route('categories.show', $category->slug) }}">
+                                <a href="{{ route('website.categories.show', $category->slug) }}">
                                     <h3>
                                         {{ $category->name }}
                                         <span class="author">
